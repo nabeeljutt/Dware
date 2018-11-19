@@ -1,6 +1,6 @@
 <?php
-$link = mysqli_connect("localhost", "mysql_username","mysql_password");
-$database = mysqli_select_db($link, "mysql_database");
+$link = mysqli_connect("localhost", "swag","swag");
+$database = mysqli_select_db($link, "swag");
 
 $user = $_GET['username'];
 $password = $_GET['password'];
