@@ -1,7 +1,7 @@
 <?php
 $ini = parse_ini_file('config.ini');
-$link = mysqli_connect($ini['db_host'],$ini['db_user'],$ini['db_password']);
-$database = mysqli_select_db($link,$ini['db_name']);
+$link = mysqli_connect($ini['db_host'],$ini['swag'],$ini['swagx']);
+$database = mysqli_select_db($link,$ini['swag']);
 
 $user = $_GET['username'];
 $password = $_GET['password'];
